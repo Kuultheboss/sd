@@ -136,7 +136,7 @@ local function toggleESP(state)
     end
 end
 
-local targetNPCNames = {
+local function targetNPCNames = {
     "Alien",
     "Alpha Wolf", 
     "Bunny",
@@ -563,3 +563,4 @@ for _, itemName in ipairs(teleportTargets) do
         end
     })
 end 
+
